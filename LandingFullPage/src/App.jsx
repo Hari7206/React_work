@@ -1,15 +1,19 @@
 
 
+import Hero from "./components/Hero"
+import Learn from "./components/Learn"
 import Nav from "./components/Nav"
-import Button from "./components/Button"
+
 function App() {
 
 
   return (
-  <>
-  <Nav/>
-<Button/>
-  </>
+    <>
+
+      <Nav />
+      <Hero />
+      <Learn />
+    </>
   )
 }
 
