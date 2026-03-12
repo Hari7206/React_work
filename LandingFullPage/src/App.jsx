@@ -6,6 +6,7 @@ import Hero from "./components/Hero"
 import Learn from "./components/Learn"
 import Nav from "./components/Nav"
 import Stat from "./components/Stat"
+import Qulity from "./components/Qulity"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Stat/>
       <About/>
       <Benefits/>
+      <Qulity/>
     </>
   )
 }
