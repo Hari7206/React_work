@@ -76,7 +76,7 @@ function removeUser(index) {
             </form>
             {users.map((elem , index) => {
                 return <div className='flex flex-col gap-4 p-10 bg-[#F5F2F2] w-[300px] items-center justify-center rounded-[20px]'>
-                    <div><img src="https://play-lh.googleusercontent.com/8t-HE39ttp5Q2kvQOmRdv7gc99SOT3_NgW2_svSkJOBCSCaHxSZyc-wzDiSNl209UA" className='object-center object-cover h-[40px] w-[40px] rounded-[50%]' /></div>
+                    <div><img src="https://i.pinimg.com/1200x/04/90/be/0490be616c6d7f30eb228ffbd81b79fa.jpg" className='object-center object-cover h-[40px] w-[40px] rounded-[50%]' /></div>
                     <h1 className='text-[2rem] font-semibold'>{elem.name}</h1>
                     <h2 className='text-[1.3rem] tracking-[1px]'>{elem.email}</h2>
                     <span className='flex flex-col items-center gap-4'>
